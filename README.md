@@ -16,10 +16,7 @@ _completed in C programming language on Linux OS._
 8.
 9.
 10.
-<<<<<<< HEAD
 11.
-=======
->>>>>>> 90cf45b4fca96bc135d71abc535cfbcbd76016de
 
 ### Contributors include:
 1. Jonathan Esokawu
