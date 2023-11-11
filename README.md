@@ -13,6 +13,10 @@ _completed in C programming language on Linux OS._
 5.
 6.
 7.
+8.
+9.
+10.
+11.
 
 ### Contributors include:
 1. Jonathan Esokawu
