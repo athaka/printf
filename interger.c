@@ -4,14 +4,14 @@
  * print_int - Prints an integer
  * @output: List of arguments
  * @buffer: Buffer array to handle print
- * @alignment: Calculates active alignment
+ * @active_flags: Calculates active alignment
  * @output_width: Width of the output
  * @output_precision: Precision specification for the output
  * @output_size: Size specifier for the output
  * Return: Number of characters printed.
  */
 int print_int(va_list output, char buffer[],
-		int alignment, int output_width, int output_precision, int output_size)
+		int active_flags, int output_width, int output_precision, int output_size)
 {
 	int i = BUFF_SIZE - 2;
 	int is_negative = 0;
@@ -39,6 +39,6 @@ int print_int(va_list output, char buffer[],
 	}
 
 	i++;
-	return (write_number(is_negative, i, buffer, alignment,
+	return (write_number(is_negative, i, buffer, active_flags,
 			output_width, output_precision, output_size));
 }

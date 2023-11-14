@@ -4,21 +4,21 @@
  * print_binary - Prints an unsigned number in binary notation
  * @output: List of arguments
  * @buffer: Buffer array to handle print
- * @alignment: Calculates active alignment
+ * @active_flags: Calculates active alignment
  * @output_width: Width of the output
  * @output_precision: Precision specification for the output
  * @output_size: Size specifier for the output
  * Return: Number of characters printed.
  */
 int print_binary(va_list output, char buffer[],
-		int alignment, int output_width, int output_precision, int output_size)
+		int active_flags, int output_width, int output_precision, int output_size)
 {
 	unsigned int n, m, i, sum;
 	unsigned int a[32];
 	int count;
 
 	UNUSED(buffer);
-	UNUSED(alignment);
+	UNUSED(active_flags);
 	UNUSED(output_width);
 	UNUSED(output_precision);
 	UNUSED(output_size);
