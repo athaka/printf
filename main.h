@@ -3,9 +3,17 @@
 
 #include <stdarg.h>
 #include <unistd.h>
+<<<<<<< HEAD
 #include <string.h>
 #include <stdio.h>
+=======
+>>>>>>> j-printf
 
 int _printf(const char *format, ...);
 
-#endif
+/* Function prototypes for format specifiers */
+int print_char(va_list args);
+int print_str(va_list args);
+int print_percent(va_list args);
+
+#endif /* MAIN_H */
