@@ -3,11 +3,8 @@
 
 #include <stdarg.h>
 #include <unistd.h>
-<<<<<<< HEAD
 #include <string.h>
 #include <stdio.h>
-=======
->>>>>>> j-printf
 
 int _printf(const char *format, ...);
 
